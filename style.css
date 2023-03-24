@@ -1,1 +1,27 @@
 @charset "UTF-8";
+
+body{
+    min-width: 400px;
+    max-width: 1000px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-image: url(fundo03.jpg);
+}
+    
+
+div#texto{
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.438);
+}
+
+div#logo{
+    max-width: 350px;
+    display: block; 
+}
+
+footer{
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
