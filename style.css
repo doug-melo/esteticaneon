@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+
+*{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --fonte1: 'Qwigley', cursiva;
+    --fonte2: 'Kaushan Script', cursiva;
+}
+body{
+    background-image: linear-gradient(to top, darkblue, black);
+}
+
+header > img{
+    box-align: center;
+    border: 1px solid red;
+    margin-top: 60px;
+    width: 600px;
+    height: 200px;
+    margin: auto;
+}
+
+ p{
+    border:1px solid red;
+    height: 80px;
+    padding: 3px;
+    color: white;
+    text-shadow: 5px 4px 1px black;
+    text-align: center;
+    font-family: var(--fonte2);
+    font-size: 1.5em;
+}
+
+
